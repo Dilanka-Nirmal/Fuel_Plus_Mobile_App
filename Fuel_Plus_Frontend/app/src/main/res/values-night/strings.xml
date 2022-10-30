@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="signInTxt">Sign In</string>
+    <string name="vehicleNoTxt">Vehicle No</string>
+    <string name="vehicleNoEdt">Enter your vehicle no</string>
+    <string name="passwordTxt">Password</string>
+    <string name="passwordEdt">Enter your password</string>
+    <string name="signInBtn">Sign In</string>
+    <string name="forgotPasswordBtn">Forgot Password</string>
+    <string name="dontHaveAnAcctTxt">Don\'t have an account?</string>
+    <string name="signUpBtn">Sign Up</string>
+    <string name="logo">Logo</string>
+    <string name="signUpTxt">Sign Up</string>
+    <string name="firstNameEdt">First name</string>
+    <string name="lastNameEdt">Last name</string>
+    <string name="lastNameTxt">Last name</string>
+    <string name="firstNameTxt">First Name</string>
+    <string name="phoneNumberTxt">Phone no</string>
+    <string name="phoneNumberEdt">Phone number</string>
+    <string name="fuelTypeTxt">Fuel type</string>
+    <string name="petrolEdt">Petrol</string>
+    <string name="dieselEdt">Diesel</string>
+    <string name="newPasswordTxt">New password</string>
+    <string name="haveAnAcctTxt">Have an account?</string>
+    <string name="newPasswordEdt">New password</string>
+    <string name="forgotPasswordTxt">Forgot Password</string>
+    <string name="confirmBtn">Confirm</string>
+    <string name="userProfileTxt">User Profile</string>
+    <string name="updateProfile">Update</string>
+    <string name="deleteProfile">Delete</string>
+    <string name="logoutProfile">Log Out</string>
+    <string name="inTimeBtn">In-Time</string>
+    <string name="outTimeBtn">Out-Time</string>
+    <string name="exitTimeBtn">Exit-Time</string>
+    <string name="petrolQueueTxt">Petrol Queue</string>
+    <string name="dieselQueueTxt">Diesel Queue</string>
+    <string name="petrolQueueJoinBtn">Join</string>
+    <string name="dieselQueueJoinBtn">Join</string>
+    <string name="goInsideBtn">Go Inside</string>
+    <string name="outBtn">Out</string>
+    <string name="exitBtn">Exit from the queue</string>
+</resources>

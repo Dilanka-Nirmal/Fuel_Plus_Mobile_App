@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".user_sessions.UserProfile">
+
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="200dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="78dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:hapticFeedbackEnabled="false"
+        android:text="@string/deleteProfile"
+        android:textAllCaps="false"
+        android:textColor="#696969"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoutBtn" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="120dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/logoutProfile"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fuelTypeView"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="120dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/updateProfile"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#00A300"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fuelTypeView"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/userProfileTxt"
+        android:layout_width="237dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/userProfileTxt"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/firstNameTxt"
+        android:layout_width="110dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/firstNameTxt"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userProfileTxt" />
+
+    <TextView
+        android:id="@+id/fuelTypeTxt"
+        android:layout_width="204dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="173dp"
+        android:text="@string/fuelTypeTxt"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehicleNoView" />
+
+    <TextView
+        android:id="@+id/lastNameTxt"
+        android:layout_width="110dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="86dp"
+        android:text="@string/lastNameTxt"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userProfileTxt" />
+
+    <EditText
+        android:id="@+id/lastNameEdt"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="@string/lastNameEdt"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#78909C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameTxt"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/phoneNumberTxt"
+        android:layout_width="110dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="267dp"
+        android:text="@string/phoneNumberTxt"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstNameEdt" />
+
+    <TextView
+        android:id="@+id/vehicleNoTxt"
+        android:layout_width="204dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="173dp"
+        android:text="@string/vehicleNoTxt"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumberEdt" />
+
+    <EditText
+        android:id="@+id/phoneNumberEdt"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="@string/phoneNumberEdt"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:textColorHint="#78909C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumberTxt" />
+
+    <EditText
+        android:id="@+id/firstNameEdt"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="13dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="@string/firstNameEdt"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#78909C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/lastNameEdt"
+        app:layout_constraintTop_toBottomOf="@+id/firstNameTxt"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/fuelTypeView"
+        android:layout_width="347dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="#000000"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fuelTypeTxt" />
+
+    <TextView
+        android:id="@+id/vehicleNoView"
+        android:layout_width="347dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="#000000"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehicleNoTxt" />
+
+</android.support.constraint.ConstraintLayout>

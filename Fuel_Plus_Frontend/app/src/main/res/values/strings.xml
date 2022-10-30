@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Fuel Plus</string>
+    <string name="signInTxt">Sign In</string>
+    <string name="vehicleNoTxt">Vehicle No</string>
+    <string name="vehicleNoEdt">Vehicle no</string>
+    <string name="passwordTxt">Password</string>
+    <string name="passwordEdt">Password</string>
+    <string name="signInBtn">Sign In</string>
+    <string name="forgotPasswordBtn">Forgot Password</string>
+    <string name="dontHaveAnAcctTxt">Don\'t have an account?</string>
+    <string name="signUpBtn">Sign Up</string>
+    <string name="logo">Logo</string>
+    <string name="signUpTxt">Sign Up</string>
+    <string name="firstNameTxt">First name</string>
+    <string name="firstNameEdt">First name</string>
+    <string name="lastNameTxt">Last name</string>
+    <string name="lastNameEdt">Last name</string>
+    <string name="phoneNumberTxt">Phone no</string>
+    <string name="phoneNumberEdt">Phone number ex: 761234567</string>
+    <string name="fuelTypeTxt">Fuel type</string>
+    <string name="petrolEdt">Petrol</string>
+    <string name="dieselEdt">Diesel</string>
+    <string name="newPasswordTxt">New password</string>
+    <string name="haveAnAcctTxt">Have an account?</string>
+    <string name="newPasswordEdt">New password</string>
+    <string name="forgotPasswordTxt">Forgot Password</string>
+    <string name="continueBtn">Continue</string>
+    <string name="userProfileTxt">User Profile</string>
+    <string name="updateProfile">Update</string>
+    <string name="deleteProfile">Delete Profile</string>
+    <string name="logoutProfile">Log Out</string>
+    <string name="inTimeBtn">In-Time</string>
+    <string name="outTimeBtn">Out-Time</string>
+    <string name="exitTimeBtn">Exit-Time</string>
+    <string name="petrolQueueTxt">Petrol Queue</string>
+    <string name="dieselQueueTxt">Diesel Queue</string>
+    <string name="petrolQueueJoinBtn">Join</string>
+    <string name="dieselQueueJoinBtn">Join</string>
+    <string name="menu_drawer_open">Drawer open</string>
+    <string name="menu_drawer_close">Drawer Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="goInsideBtn">Go Inside</string>
+    <string name="outBtn">Out from the queue</string>
+    <string name="exitBtn">Exit from the queue</string>
+</resources>
